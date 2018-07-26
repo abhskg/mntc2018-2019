@@ -98,49 +98,6 @@ main {
 	position: relative;
 }
 
-/* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	align-items: center;
-	padding: 2rem;
-}
-
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-}
-
-.info {
-	margin: 0 0 0 1.25em;
-	color: var(--color-info);
-}
-
-.github {
-	display: block;
-	margin: 0 0 0 auto;
-}
-
-/* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin: 0 1em 0 0;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
 
 .grid {
 	width: 100%;
@@ -156,7 +113,6 @@ main {
 	margin: 0 0 10rem 0;
 	cursor: pointer;
 }
-
 
 .box1 {
 	position: absolute;
@@ -200,6 +156,44 @@ main {
 	margin: 2rem;
 }
 
+@media screen and (max-width: 30em){
+
+.box1 {
+	position: absolute;
+	top: 10px;
+	margin: 2rem;
+}
+
+.box2 {
+	position: absolute;
+	top: 500px;
+	margin: 2rem;
+}
+
+.box3 {
+	position: absolute;
+	top: 1000px;
+	margin: 2rem;
+}
+
+.box4 {
+	position: absolute;
+	top: 1500px;
+	margin: 2rem;
+}
+
+.box5 {
+	position: absolute;
+	top: 2000px;
+	margin: 2rem;
+}
+
+.box6 {
+	position: absolute;
+	top: 2500px;
+	margin: 2rem;
+}
+}
 
 
 .box__title {
@@ -276,7 +270,7 @@ main {
 .box__text2 {
 	margin: 0;
 	position: absolute;
-	top: -12rem;
+	top: -10rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
@@ -288,7 +282,7 @@ main {
 .box__text3 {
 	margin: 0;
 	position: absolute;
-	top: -6rem;
+	top: -8rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
@@ -300,7 +294,7 @@ main {
 .box__text4 {
 	margin: 0;
 	position: absolute;
-	top: -6rem;
+	top: -8rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
@@ -324,7 +318,7 @@ main {
 .box__text6 {
 	margin: 0;
 	position: absolute;
-	top: -6rem;
+	top: -8rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
@@ -367,15 +361,6 @@ main {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOklEQVQoU43MSwoAMAgD0eT+h7ZYaOlHo7N+DNHL2HAGgBWcyGcKbqTghTL4oQiG6IUpOqFEC5bI4QD8PAoKd9j4XwAAAABJRU5ErkJggg==);
 }
 
-.box__deco {
-	font-size: 6rem;
-	line-height: 1;
-	font-weight: bold;
-	position: absolute;
-	bottom: -4rem;
-	right: -4rem;
-	display: none;
-}
 
 .box__content {
 	position: absolute;
@@ -478,9 +463,6 @@ main {
 	.grid__item {
 		margin: 0;
 	}
-	.box {
-		margin: 4rem;
-	}
 	.box__title {
 		top: -4rem;
 		right: -4.5rem;
@@ -498,45 +480,6 @@ main {
 	.box__title--bottom {
 		bottom: -5rem;
 		top: auto;
-	}
-	.box__title--left {
-		left: -2rem;
-		right: auto;
-	}
-	.box__text--topcloser {
-		top: -5rem;
-	}
-	.box__text--bottom {
-		bottom: -5rem;
-		top: auto;
-	}
-	.box__text--bottomcloser {
-		bottom: -5rem;
-		top: auto;
-	}
-	.box__text--right {
-		right: 0;
-		left: auto;
-	}
-	.box__text-inner--rotated1 {
-		transform: rotate(4deg);
-	}
-	.box__text-inner--rotated2 {
-		transform: rotate(-3deg);
-	}
-	.box__text-inner--rotated3 {
-		transform: rotate(-15deg);
-	}
-	.box__deco {
-		display: block;
-	}
-	.box__deco--left {
-		right: auto;
-		left: -3rem;
-	}
-	.box__deco--top {
-		top: 0;
-		bottom: auto;
 	}
 	.overlay__item {
 		flex-direction: row;
@@ -580,25 +523,5 @@ main {
 		z-index: 1000;
 		display: block;
 		padding: 0.85em;
-	}
-	.codrops-header {
-		flex-direction: column;
-		align-items: center;
-		padding-bottom: 5rem;
-	}
-	.codrops-header__title {
-		font-weight: bold;
-		padding-bottom: 0.25em;
-		text-align: center;
-	}
-	.info {
-		margin: 0;
-	}
-	.github {
-		display: block;
-		margin: 1em auto;
-	}
-	.codrops-links {
-		margin: 0;
 	}
 }
