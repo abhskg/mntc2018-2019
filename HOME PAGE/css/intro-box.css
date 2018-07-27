@@ -6,12 +6,12 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
-  height: 200px ;
   margin: 8px;
   width: 100%;
   color: #ffffff;
   text-align: justify;
   font-size: 16px;
+  border-style: double ;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .intro-box * {
@@ -21,9 +21,9 @@
   box-sizing: border-box;
 }
 .intro-box img {
-  height: 200px;
-  max-width: 100%;
+  height: 100px;
   vertical-align: top;
+  border-radius: 25px ;
 }
 .intro-box h3 {
   font-family: 'Oswald';

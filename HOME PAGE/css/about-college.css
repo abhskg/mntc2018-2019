@@ -6,8 +6,7 @@
   color: #ffffff;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  height: 350 px ;
+  font-size: 20px;
   overflow: hidden;
   position: relative;
   text-align: left;
@@ -28,8 +27,8 @@
 .about-college img {
   float: right ;
   backface-visibility: hidden;
-  max-width: 100%;
   vertical-align: top;
+  width: 90% ;
 }
 
 .about-college:before,
@@ -108,6 +107,7 @@
 
 .about-college p {
   font-size: 0.9em;
+  text-align: justify; 
 }
 
 .about-college a {
