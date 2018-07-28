@@ -108,7 +108,7 @@
 }
 
 .about-college p {
-  font-size: 0.8em;
+  font-size: 1.1em;
   text-align: justify; 
 }
 
@@ -164,9 +164,19 @@
 
 .aavishkar p{
   text-align: justify;
-  font-size: 16px ;
+  font-size: 20px ;
 }
-/* Demo purposes only */
+
+/* Client Logos */
+.client-logos{ width:100%;}
+.client-logos h6{color:#fff; margin-bottom:20px; position:relative; z-index:2;}
+.client-logos .box{ width:100%; padding:20px 0; border:1px solid rgba(255,255,255,0.3); position:relative; z-index:2;}
+.client-logos .box{ cursor:url(../images/drag-cursor.png), move;}
+.client-logos .box img{ width:100%;}
+.client-logos .box img {-webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1);}
+.client-logos .item{ width:100%; float:left;}
+.client-logos .logos-list{ width:100%; float:left;} 
+
 
 body {
   background-color: #d7e6e8;
