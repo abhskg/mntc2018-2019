@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Teko:700);
+
+
 .about-college {
   margin: 30px ;
   background-color: #fff;
@@ -101,7 +103,7 @@
 
 .about-college h3 {
   font-family: 'Teko', sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;

@@ -25,7 +25,6 @@
 	position: relative;
 }
 
- /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .navbar-header img,
 .navbar-header nav a {
 	line-height: 150px ;
@@ -54,7 +53,8 @@
 }
 
 .navbar-header nav a:hover {
-	color: #333;
+	color: #a9ece6;
+  text-decoration: none;
 }
 
 /* Transitions and class for reduced height */
