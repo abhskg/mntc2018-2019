@@ -1,7 +1,11 @@
 .aavishkar{
   background-color: darkblue ;
+  max-width: 100 ;  
 }
 .aavishkar p{
   text-align: justify ;
   font-size: 18px ;
+}
+.aavishkar img{
+  width: 100;
 }
