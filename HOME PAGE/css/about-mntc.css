@@ -88,6 +88,7 @@
 }
 
 body {
-  background-color: #141414;
+  background-image: url('background-cover.gif');
+  background-size: cover;
   text-align: center;
 }
