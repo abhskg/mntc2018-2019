@@ -90,5 +90,8 @@
 body {
   background-image: url('background-cover.gif');
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat ;
   text-align: center;
 }
